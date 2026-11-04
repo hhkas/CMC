@@ -17,3 +17,16 @@
 - 스캔본(이미지) 인식은 GitHub Pages 주소로 열었을 때만 됩니다. 파일을 더블클릭해서 열면 엑셀·글자 PDF만 읽습니다.
 - 모든 처리는 브라우저 안에서만 이뤄지고 파일은 어디에도 전송되지 않습니다.
 - 고정 정보는 브라우저에 저장됩니다. "설정 내보내기/불러오기"로 다른 PC와 공유하세요.
+
+## 신청서 항목별 자동 입력 범위
+| 신청서 항목 | 자료 | 결과 |
+|---|---|---|
+| Model · 수량 · HS · Brief Description | 패킹리스트(PL) | 자동 |
+| Equipment Name · Type of Equipment | PL 품목 설명 | 자동 추정 |
+| Manufacturer · Country · Address | 원산지증명(COO) | 자동 (COO 없으면 빈칸) |
+| Year of Manufacturing | 시험성적서 일자 | 자동 |
+| Software Version | 시험성적서 펌웨어 | 자동 (스캔본 숫자 확인 필요) |
+| Test report · Test Name · Test No. · Date | 시험성적서 | 자동 |
+| Test standard | 사양서 인증 항목 | 자동 (모델별) |
+| Test Laboratory | 자료 없음 | 제조사명 자동 입력 → 확인 필요 |
+| Hardware Version | 자료 없음 | 기본값 N/A → 수기 확인 |
