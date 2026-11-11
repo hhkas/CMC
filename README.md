@@ -1,4 +1,4 @@
-# CMC 서류 작성
+# CMC (Comms Material Clearance) — 통신자재 수입허가 서류 작성
 
 이라크 CMC(통신미디어위원회) 통신자재 Type Approval 서류를 만드는 웹 도구입니다.
 
